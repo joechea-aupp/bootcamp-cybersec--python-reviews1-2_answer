@@ -3,9 +3,4 @@
 number = 569
 
 str_number = str(number)
-number_list = []
-
-for item in str_number:
-    number_list.append(int(item))
-
-print(max(number_list))
+print(max(str_number))
